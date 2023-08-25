@@ -7,3 +7,58 @@
 
 
 }
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: blanchedalmond;
+    padding: 10px;
+
+}
+.todo-app{
+    width: 30%;
+    max-width: 640px;
+    background: whitesmoke;
+    margin: 100px auto 20px;
+    padding: 34px 40px 90px;
+    border-radius: 20px;
+    border-color: beige;
+
+}
+.todo-app h2{ 
+    color:black;
+    display:flex;
+    align-items:center ;
+    margin-bottom: 20 px;
+
+}
+.todo-app h2 img{
+    width:30px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: lightgrey;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom:20px;
+}
+input{
+    flex:1;
+    border:none;
+    outline:none;
+    background: transparent;
+    padding:10px
+}
+
+button{
+    border:none;
+    outline:none;
+    padding: 16px 50px ;
+    background: rgba(255, 64, 0, 0.282);
+    color:bisque;
+    font-size:16px;
+    cursor: pointer;
+    border-radius:20px;
+}
